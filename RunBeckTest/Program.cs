@@ -138,54 +138,7 @@ namespace RunBeckTest
             }
 
         }
-
-
-        //No Needed
-
-        //static void AnalyseCSVFile()
-        //{
-        //    var file = File.ReadAllLines(FileLocation).Select(a => a.Split(';'));
-        //    var docHeather = file.ToList()[0];
-
-        //    List<string[]> goodlist = new List<string[]>();
-        //    List<string[]> badlist = new List<string[]>();
-        //    foreach (var line in file)
-        //    {
-        //        var splitLine = line.Select(x => x.Split(',')).ToList();
-
-        //        if (docHeather[0] == line[0])
-        //        { // Removes the header from the equation
-        //            continue;
-        //        }
-
-        //        if (splitLine.Count() > 0)
-        //        {
-        //            var splitList = splitLine[0].ToList();
-
-        //            var count = splitLine[0].Count();
-
-        //            if (count == NumOfRecords)
-        //            {
-        //                goodlist.Add(line);
-        //            }
-        //            else
-        //            {
-        //                badlist.Add(line);
-        //            }
-        //        }
-        //    }
-
-        //    using (var newFile = File.CreateText("C:\\Temp\\Goodlist.csv"))
-        //    {
-        //        foreach (var arr in goodlist)
-        //        {
-        //            newFile.WriteLine(arr.FirstOrDefault());
-        //        }
-        //    }
-
-        //}
-
-
+        
     }
 
 }
